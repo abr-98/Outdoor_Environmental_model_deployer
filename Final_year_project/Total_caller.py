@@ -13,7 +13,7 @@
 def crawler_meteoblue():
     from selenium import webdriver
     driver = webdriver.Chrome('chromedriver_linux64/chromedriver')
-    driver.get("https://www.meteoblue.com/en/products/historyplus/download/durgapur_india_1272175")
+    driver.get("\")
 
     driver.find_element_by_xpath("/html/body/div[2]/div/form/div/input").click() #accept and continue
 
@@ -115,7 +115,7 @@ def crawler_IOT():
     import os
     from selenium import webdriver
     driver = webdriver.Chrome('chromedriver_linux64/chromedriver')
-    driver.get("http://iotbuilder.in/nit-dp/dashboard.php")
+    driver.get("")
     button=driver.find_element_by_class_name("col-md-12")
     butt=button.find_element_by_class_name("text-center")
     links = driver.find_elements_by_link_text('Save')
