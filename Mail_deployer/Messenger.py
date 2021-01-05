@@ -36,7 +36,7 @@ def send_email():
     body=request.args.get('body')
     smtp = smtplib.SMTP('smtp.gmail.com', 587) 
     smtp.starttls()
-    smtp.login("cityprobe.report@gmail.com", "cityprobe123#")    
+    smtp.login()    
     sender="cityprobe.report@gmail.com"
     ids=email.split('_')
     for id_ in ids:
