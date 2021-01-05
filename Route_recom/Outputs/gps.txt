@@ -1,0 +1,3 @@
+point 1-23.565774, 87.269568 left up
+
+point 2-23.534924, 87.321653 right down
