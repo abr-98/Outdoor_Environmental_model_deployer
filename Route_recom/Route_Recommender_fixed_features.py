@@ -17,7 +17,7 @@ import json
 # In[2]:
 
 
-#gmaps = googlemaps.Client(key='AIzaSyAr8OUoyTH5mDIuvnoXTdXHM9i2Jzeo7iU')
+#gmaps = googlemaps.Client(key='')
 
 
 # In[3]:
